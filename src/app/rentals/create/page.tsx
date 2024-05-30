@@ -34,7 +34,7 @@ function CreatePropertyPage() {
             <ImageInput/>
           </div>
           <h3 className='text-lg mt-8 mb-4 font-medium'>
-            Détails de l'accueil
+            Détails de l&apos;accueil
           </h3>
           <CounterInput detail='personnes' name="guests" />
           <CounterInput detail='chambres' name="bedrooms" />

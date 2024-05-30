@@ -15,7 +15,7 @@ type SubmitButtonProps = {
   size?: BtnSize
 }
 
-export function SubmitButton({className="", text="valider", size="lg"}: SubmitButtonProps) {
+export default function SubmitButton({className="", text="valider", size="lg"}: SubmitButtonProps) {
   const {pending} = useFormStatus()
 
   return (

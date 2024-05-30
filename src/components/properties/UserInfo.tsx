@@ -14,7 +14,7 @@ function UserInfo({profile: {profileImage, firstName}}: UserInfoProps) {
       <Image src={profileImage} alt={firstName} width={50} height={50} className='rounded w-12 h-12 object-cover'/>
       <div>
         <p>Hébergé par <span className='font-bold'>{firstName}</span></p>
-        <p className='text-muted-foreground'>Superhost &middot; 2 ans d'ancienneté</p>
+        <p className='text-muted-foreground'>Superhost &middot; 2 ans d&apos;ancienneté</p>
       </div>
     </article>
   )

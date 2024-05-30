@@ -32,7 +32,7 @@ function LinksDropdown() {
           <DropdownMenuSeparator/>
           <DropdownMenuItem>
             <SignUpButton mode='modal'>
-              <button className='w-full text-left'>S'inscrire</button>
+              <button className='w-full text-left'>S&apos;inscrire</button>
             </SignUpButton>
           </DropdownMenuItem>
         </SignedOut>
